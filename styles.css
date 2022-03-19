@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "eurostile";
+    font-weight: normal;
+    src: url(./fonts/EuroStyleNormal.ttf);
+}
+@font-face {
+    font-family: "eurostile";
+    font-weight: bold;
+    src: url(./fonts/EurostileBold.ttf);
+}
+@font-face {
+    font-family: "europa";
+    font-weight: normal;
+    src: url(./fonts/EuropaRegular.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 17%;
+    z-index: 10;
+}
+.nav-left{
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    width: 8%;
+    margin:2% 5%;
+}
+.nav-right{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+}
+.btn{
+    width: 100%;
+    height: 40%;
+    outline: none;
+    background-color: white;
+    color: #7510F7;
+    border: 2px solid #7510F7;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: #7510F7;
+    color: white;
+}
+.main-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #141c3a;
+}
+.heading{
+    font-family: "eurostile", sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 1%;
+}
+.lower-heading{
+    font-family: "eurostile", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 1%;
+}
+.short-text{
+    font-family: "europa", sans-serif;
+    font-size: 22px;
+    margin: 1%;
+}
