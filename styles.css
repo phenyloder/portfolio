@@ -228,3 +228,125 @@ html{
     font-size: 1.5rem;
     margin: 5% 0;
 }
+.works{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 130%;
+    background-color: #7510F7;
+}
+.work-heading{
+    font-family: "eurostile", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.laptop-logo{
+    position: relative;
+    width: 5%;
+    margin-top: 2%;
+}
+.projects{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 3% 2%;
+    height: 23%;
+    border-radius: 1rem;
+    padding: 3% 0;
+    background-color: white;
+    box-shadow: 0px 2px 70px 0px #0000001F;
+}
+.project-img{
+    position: relative;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 62px 0px #0000001F;
+}
+.project-heading{
+    font-family: "europa", sans-serif;
+    color: #141c3a;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 5% 0;
+}
+.project-link{
+    text-decoration: none;
+}
+.project-explore-btn{
+    width: 100%;
+    height: 150%;
+    outline: none;
+    background-color: white;
+    color: #7510F7;
+    border: 2px solid #7510F7;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.project-explore-btn:hover{
+    background-color: #7510F7;
+    color: white;
+}
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 135%;
+}
+.vlogo{
+    position: relative;
+    width: 10%;
+}
+.short-note{
+    font-family: "eurostile", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 25%;
+    text-align: center;
+    margin: 2% 0;
+}
+.social{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.social-handles{
+    position: relative;
+    border: 1px solid #7510F7;
+    border-radius: 50%;
+    width: 100%;
+    margin: 5%;
+    transition: all 0.5s ease;
+}
+.social-handles:hover{
+    background-color: #7510F7;
+}
+.social-handles:hover i{
+    color: #fff;
+}
+.social-handles i{
+    position: relative;
+    color: #7510F7;
+    font-size: 1.7rem;
+    margin: 1rem 1rem;
+    transition: all 0.5s ease;
+}
+.made-with{
+    font-family: "europa", sans-serif;
+    font-size: 1.2rem;
+    margin: 2%;
+}
