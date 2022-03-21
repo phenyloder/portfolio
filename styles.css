@@ -211,6 +211,9 @@ html{
     width: 4rem;
     left: 37%;
 }
+.owl-stage{
+    display: flex;
+}
 .owl-carousel{
     margin: 10% 0;
 }
@@ -349,4 +352,69 @@ html{
     font-family: "europa", sans-serif;
     font-size: 1.2rem;
     margin: 2%;
+}
+
+
+@media (max-width:768px) {
+    .nav-bar{
+        position: absolute;
+        flex-direction: column;
+        margin: 7% 0;
+    }
+    .logo{
+        width: 40%;
+    }
+    .nav-left{
+        width: 100%;
+        padding: 5% 0;
+        top: 15%;
+        justify-content: center;
+    }
+    .nav-right{
+        width: 100%;
+    }
+    .nav-btn{
+        width: 30%;
+        height: 4rem;
+    }
+    .heading{
+        font-size: 3rem;
+        margin: 5% 0;
+    }
+    .below-graphics{
+        width: 80%;
+    }
+    .skills{
+        top: -2rem;
+        width: 75%;
+    }
+    .skill-name{
+        font-size: 1.5rem;
+    }
+    .languages,.tools{
+        width: 37%;
+    }
+    .lang-logo-text,.tool-logo-text{
+        left: 10%;
+        margin: 5% 0;
+    }
+    .works{
+        top: 48rem;
+    }
+    .laptop-logo{
+        width: 20%;
+    }
+    .project{
+        width: 95%;
+        height: 17%;
+    }
+    .footer{
+        top: 69rem;
+    }
+    .vlogo{
+        width: 30%;
+    }
+    .short-note{
+        width: 80%;
+    }
 }
